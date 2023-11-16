@@ -4,7 +4,7 @@ This repository contains a collection of scripts designed to automate the setup 
 
 ## Scripts Included
 
-- `ebs_mount.sh`: This script mounts an EBS volume to the EC2 instance.
+- `setup_ebs_mount.sh`: This script mounts an EBS volume to the EC2 instance.
 - `setup_node.sh`: This script installs Node.js and Yarn on the EC2 instance.
 - `setup_docker.sh`: This script installs Docker on the EC2 instance.
 - `setup_postgres_client.sh`: This script installs postgresql client on the EC2 instance.
