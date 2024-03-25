@@ -17,9 +17,9 @@ cat alvistack_key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/alvistack.gp
 echo "deb http://downloadcontent.opensuse.org/repositories/home:/alvistack/Debian_$VERSION_ID/ /" | sudo tee  /etc/apt/sources.list.d/alvistack.list
 
 sudo apt update
-sudo apt-get -t $VERSION_CODENAME-backports install podman
+sudo apt-get -t $VERSION_CODENAME-backports install podman -y
 
 sudo apt install python3-pip -y
 # install podman and podman compose 
-sudo apt install podman python3-podman-compose  -y 
+sudo apt install podman podman-compose  -y 
 sudo apt update
