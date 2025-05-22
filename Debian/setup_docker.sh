@@ -34,6 +34,6 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin -y
 usermod -aG docker admin
 
 # install Docker compose 
-sudo curl -L https://github.com/docker/compose/releases/download/v2.16.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+sudo curl -L https://github.com/docker/compose/releases/download/v2.36.1/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 
