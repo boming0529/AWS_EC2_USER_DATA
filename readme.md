@@ -11,6 +11,7 @@ This repository contains a collection of scripts designed to automate the setup 
 - `setup_postgres_client.sh`: This script installs postgresql client on the EC2 instance.
 - `setup_cloudwatch_agent_for_amd64.sh`: This script installs and configures the Amazon CloudWatch Agent on the EC2 amd64 instance.
 - `setup_cloudwatch_agent_for_arm64.sh`: This script installs and configures the Amazon CloudWatch Agent on the EC2 arm64 instance.
+- `setup_ssm_agent.sh`: This script installs the AWS Systems Manager (SSM) Agent so the instance can be accessed via Session Manager without opening port 22.
 
 ## Usage
 
