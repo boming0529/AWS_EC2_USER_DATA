@@ -5,8 +5,6 @@
 # notification : EC2 instance need AmazonSSMManagedInstanceCore policy
 # IAM Instance Profile, if not agent will register fail.
 
-set -e
-
 sudo apt update
 sudo apt install -y curl
 
